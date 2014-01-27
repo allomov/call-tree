@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'call/tree/version'
+require 'call-tree/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "call-tree"
-  spec.version       = Call::Tree::VERSION
+  spec.version       = CallTree::VERSION
   spec.authors       = ["Alexander Lomov"]
   spec.email         = ["lomov.as@gmail.com"]
   spec.description   = %q{TODO: Write a gem description}
   spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.homepage      = "http://rubygems.org/gems/call-tree"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
